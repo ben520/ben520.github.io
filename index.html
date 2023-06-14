@@ -1,0 +1,456 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Double本の博客</title><meta name="author" content="Double本"><meta name="copyright" content="Double本"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description"><link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/ben520/my_imgs@main/my_imgsfavicon.png"><link rel="canonical" href="https://ben520.github.io/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>(adsbygoogle = window.adsbygoogle || []).push({
+  google_ad_client: '',
+  enable_page_level_ads: 'true'
+});</script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  noticeOutdate: {"limitDay":365,"position":"top","messagePrev":"距离上次更新已经过了","messageNext":"天，文章描述的内容可能已经发生了改变，请留意！或者联系我更新哦~"},
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: true,
+  islazyload: true,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Double本の博客',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2023-06-14 20:41:27'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/HCLonely/images@master/others/heartbeat.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css"><link rel="stylesheet" href="/css/mycss.css"><link rel="stylesheet" href="/css/custom/twikoo_beautify.css"  media="defer" onload="this.media='all'"><!-- hexo injector head_end start --><link rel="stylesheet" href="https://unpkg.zhimg.com/hexo-butterfly-wowjs/lib/animate.min.css" media="print" onload="this.media='screen'"><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://thirdqq.qlogo.cn/g?b=oidb&amp;k=rHHXardPxXpBLIEP3gJ7Dg&amp;s=100&amp;t=1644059035" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">20</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">13</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">11</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 媒体</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-film"></i><span> 电影</span></a></li><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 游戏</span></a></li><li><a class="site-page child" href="/books/"><i class="fa-fw fas fa-book"></i><span> 书单</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-heartbeat"></i><span> 清单</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/gallery/"><i class="fa-fw far fa-image"></i><span> 相册</span></a></li><li><a class="site-page child" href="/shuoshuo/"><i class="fa-fw fa fa-file-text"></i><span> 说说</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友人帐</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-paper-plane"></i><span> 关于我</span></a></div><div class="menus_item"><a class="site-page" href="/comments/"><i class="fa-fw fa fa-comments-o"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/dashang/"><i class="fa-fw fa fa-jpy"></i><span> 请我喝奶茶吗</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('https://imglf6.lf127.net/img/69fdd4cad21b58b0/S1N2ZTNIeU5LNUcyNjJJc21EV2xyODdRT1dZQUhCaklnZkxiUHJjVExzST0.jpg?imageView&amp;thumbnail=1680x0&amp;quality=96&amp;stripmeta=0&amp;type=jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="Double本の博客"><span class="site-name">Double本の博客</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 媒体</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-film"></i><span> 电影</span></a></li><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 游戏</span></a></li><li><a class="site-page child" href="/books/"><i class="fa-fw fas fa-book"></i><span> 书单</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-heartbeat"></i><span> 清单</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/gallery/"><i class="fa-fw far fa-image"></i><span> 相册</span></a></li><li><a class="site-page child" href="/shuoshuo/"><i class="fa-fw fa fa-file-text"></i><span> 说说</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友人帐</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-paper-plane"></i><span> 关于我</span></a></div><div class="menus_item"><a class="site-page" href="/comments/"><i class="fa-fw fa fa-comments-o"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/dashang/"><i class="fa-fw fa fa-jpy"></i><span> 请我喝奶茶吗</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">Double本の博客</h1><div id="site-subtitle"><span id="subtitle"></span></div><div id="site_social_icons"><a class="social-icon" href="https://qm.qq.com/cgi-bin/qm/qr?k=a6kOt9l4fAyEPuDyXqc3G6tuE5LQpY7K&amp;noverify=0" target="_blank" title="QQ"><i class="fab fa-qq"></i></a><a class="social-icon" href="mailto:benben5202014@qq.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="http://weixin.qq.com/r/Ehzu9g7Et1PIrUqV90kA" target="_blank" title="微信"><i class="fa fa-weixin"></i></a><a class="social-icon" href="https://weibo.com/volimtett" target="_blank" title="微博"><i class="fa fa-weibo"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left"><a href="/2023/06/12/hello-world/" title="Hello World"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://imglf4.lf127.net/img/7dc102071afd9120/S1N2ZTNIeU5LNUcyNjJJc21EV2xyNFVSeHA0YVJockVpNkY4RGtQZ2hLTT0.jpg?imageView&amp;thumbnail=1680x0&amp;quality=96&amp;stripmeta=0&amp;type=jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hello World"></a></div><div class="recent-post-info"><a class="article-title" href="/2023/06/12/hello-world/" title="Hello World">Hello World</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-06-12T01:35:02.000Z" title="发表于 2023-06-12 09:35:02">2023-06-12</time></span></div><div class="content">Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
+Quick StartCreate a new post1$ hexo new &quot;My New Post&quot;
+
+More info: Writing
+Run server1$ hexo server
+
+More info: Server
+Generate static files1$ hexo generate
+
+More info: Generating
+Deploy to remote sites1$ hexo deploy
+
+More info: Deployment
+</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2022/10/25/PHP%E5%9F%BA%E7%A1%804-2-%E7%BB%BC%E5%90%88%E5%AE%9E%E4%BE%8B/" title="PHP基础4.2-综合实例"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://imglf4.lf127.net/img/11b02d52f171dbb6/S1N2ZTNIeU5LNUcyNjJJc21EV2xyd1ZLdFUwamt0b1I4aGRNVWtIdzVTST0.jpg?imageView&amp;thumbnail=1680x0&amp;quality=96&amp;stripmeta=0&amp;type=jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="PHP基础4.2-综合实例"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/10/25/PHP%E5%9F%BA%E7%A1%804-2-%E7%BB%BC%E5%90%88%E5%AE%9E%E4%BE%8B/" title="PHP基础4.2-综合实例">PHP基础4.2-综合实例</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-10-25T13:04:36.000Z" title="发表于 2022-10-25 21:04:36">2022-10-25</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/PHP%E5%AD%A6%E4%B9%A0/">PHP学习</a></span></div><div class="content">多项选择题1、设计一个网页，询问用户“下列哪些属于恋爱鼻祖？”并列出若干人名(王宝钏，王银钏，周芷若…….)以供选择。用户单击“提交”按钮时，提示答案是否正确。
+12345678910111213141516171819202122232425262728293031323334353637383940&lt;!doctype html&gt;&lt;html&gt;&lt;head&gt;&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html&quot;;charset=&quot;utf-8&quot;&gt;&lt;title&gt;综合实例-多项选择题&lt;/title&gt;&lt;/head&gt;&lt;body&gt;	&lt;p&gt;下列哪些属于恋爱鼻祖?&lt;/p&gt;	&lt;form name=&quot;form1&quot; id=&quot;form1&quot; method=&quot;post&quot; action=&quot;&quot;&gt;		&lt ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2022/10/24/PHP%E5%9F%BA%E7%A1%804-1-PHP%E5%87%BD%E6%95%B0/" title="PHP基础4.1-PHP函数"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://imglf3.lf127.net/img/1b2c2368bd337c9e/S1N2ZTNIeU5LNUcyNjJJc21EV2xyekdPa1hQWGF6ZytZYnhXaWZCencxOD0.jpg?imageView&amp;thumbnail=1680x0&amp;quality=96&amp;stripmeta=0&amp;type=jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="PHP基础4.1-PHP函数"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/10/24/PHP%E5%9F%BA%E7%A1%804-1-PHP%E5%87%BD%E6%95%B0/" title="PHP基础4.1-PHP函数">PHP基础4.1-PHP函数</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-10-24T15:29:10.000Z" title="发表于 2022-10-24 23:29:10">2022-10-24</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/PHP%E5%AD%A6%E4%B9%A0/">PHP学习</a></span></div><div class="content">PHP函数函数的作用就是让同一段代码可以被多个地方直接调用，从而大大节省编程时间、减少编程错误、减少代码冗余、容易维护代码、实现结构化编程。函数分为系统函数和自定义函数。
+函数的定义所谓函数的定义，就是指采用若干行代码以指明此函数具体的执行过程以及执行之前需要输入什么参数，执行后可以返回什么值。函数定义的语法格式：
+function 函数名([形参表]){        函数体    }
+其中，形参必须是变量名、数组名；函数名可以是以字母或下划线开头、后面跟任意数量的字母、数字、下划线，但不能与系统函数或用户已经定义的函数名重名。与C语言不同的是，函数定义可以随意放在函数调用语句之前或之后
+12345678910&lt;!doctype html&gt;&lt;?php	fun(4);		//放在定义函数之前 输出：8	function fun($a)&#123;		echo($a*2);	&#125;	fun(5);		//放在定义函数之后 输出10?&gt;
+
+函数的返回值在函数定义内部，可以使用return语句来结束函数的运行，并把一个值返回给主调语句。语法格式：
+return[ ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2022/10/24/PHP%E5%9F%BA%E7%A1%804/" title="PHP基础4-程序流程控制"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://imglf4.lf127.net/img/d512e82b79ceea8c/S1N2ZTNIeU5LNUcyNjJJc21EV2xyNStteXJJeWRhZzhWNU4vbGtmY2Q4bz0.jpg?imageView&amp;thumbnail=1680x0&amp;quality=96&amp;stripmeta=0&amp;type=jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="PHP基础4-程序流程控制"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/10/24/PHP%E5%9F%BA%E7%A1%804/" title="PHP基础4-程序流程控制">PHP基础4-程序流程控制</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-10-24T13:22:35.000Z" title="发表于 2022-10-24 21:22:35">2022-10-24</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/PHP%E5%AD%A6%E4%B9%A0/">PHP学习</a></span></div><div class="content">程序流程控制PHP的流程控制语句大多与C语言一致，仅有个别不同。
+条件控制语句条件控制的典型语句有if语句和switch语句。
+（1）if语句
+语法：if(表达式)语句1[else语句2]
+当表达式为真时，就执行“语句1”，否则执行“语句2”。其中“语句1”“语句2”可以是任意一个PHP语句。例如：
+if($a&gt;$b) $max &#x3D; $a; else $max &#x3D; $b;上面的[ ]表示若不需要可以省略。
+（2）if语句的嵌套
+if语句一般用于解决单分支、双分支问题，必要时，也可以解决多分支问题。
+if语句的嵌套格式：
+1234567if(表达式1)语句1elseif(表达式2)语句2elseif(表达式3)语句3...else 语句n
+
+在PHP中elseif可以隔开写成else if
+例：从输入框中输入一个数，单击“提交”按钮后输出成绩等级，90分以上记作优，80~89记作良………
+1234567891011121314151617181920&lt;!doctype html&gt;&lt;meta charset=&quot;utf-8&quot;&g ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2022/10/24/PHP%E5%9F%BA%E7%A1%803/" title="PHP基础3-运算符与表达式"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://imglf5.lf127.net/img/392c8be945ca13d2/S1N2ZTNIeU5LNUcyNjJJc21EV2xyemg3ZnBMZXBIWW1OaHlhTWcwQitHVT0.jpg?imageView&amp;thumbnail=1680x0&amp;quality=96&amp;stripmeta=0&amp;type=jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="PHP基础3-运算符与表达式"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/10/24/PHP%E5%9F%BA%E7%A1%803/" title="PHP基础3-运算符与表达式">PHP基础3-运算符与表达式</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-10-24T07:05:01.000Z" title="发表于 2022-10-24 15:05:01">2022-10-24</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/PHP%E5%AD%A6%E4%B9%A0/">PHP学习</a></span></div><div class="content">PHP的运算符与C语言基本相同，也引进15级运算符，常用的运算符
+
+
+
+优先级
+运算符
+描述
+结合性
+
+
+
+1
+()
+圆括号
+
+
+
+2
+++,- -,-,!
+自增、自减、负号、逻辑非
+非结合
+
+
+3
+*,&#x2F;,%
+乘、除、取余
+从左向右
+
+
+4
++,-
+加、减
+从左向右
+
+
+5
+&lt;&lt;,&gt;&gt;
+左移、右移
+从左向右
+
+
+6
+&gt;,&gt;&#x3D;,&lt;,&lt;&#x3D;
+大于、大于等于、小于、小于等于
+非结合
+
+
+7
+&#x3D;&#x3D;,!&#x3D;
+等于、不等于
+非结合
+
+
+8
+&amp;
+按位与
+从左向右
+
+
+9
+^
+按位异或
+从左向右
+
+
+10
+|
+按位或
+从左向右
+
+
+11
+&amp;&amp;
+逻辑与
+从左向右
+
+
+12
+||
+逻辑或
+从左向右
+
+
+13
+?:
+条件运算符
+从左向右
+
+
+14
+&#x3D;,+&#x3D;,-&#x3D;,*&#x3D;,&#x2F;&#x3D;,%&#x3D;
+赋值运算符
+从左向右
+
+
+15
+@
+错误控制运算符
+非结合
+
+
+算术运算符（1）双目运算符：+，-，*，&#x2F;，%
+当“&#x ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2022/10/23/PHP%E5%9F%BA%E7%A1%802/" title="PHP基础2-变量"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://imglf6.lf127.net/img/844e222ff5dfca7c/S1N2ZTNIeU5LNUcyNjJJc21EV2xyN3o1Y21CdG1JeVZEUkV4VVhGRlUvQT0.jpg?imageView&amp;thumbnail=1680x0&amp;quality=96&amp;stripmeta=0&amp;type=jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="PHP基础2-变量"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/10/23/PHP%E5%9F%BA%E7%A1%802/" title="PHP基础2-变量">PHP基础2-变量</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-10-23T15:36:12.000Z" title="发表于 2022-10-23 23:36:12">2022-10-23</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/PHP%E5%AD%A6%E4%B9%A0/">PHP学习</a></span></div><div class="content">PHP变量变量是程序运行过程中，各种数据所存储的载体。程序根据变量的名称而找到对应的数据
+自定义变量以$开头，再加上一个合法的字符串，就成为自定义变量名，所谓合法，是指以字母或下划线开头，后面跟任意字母、数字、下划线。
+变量的类型由于PHP变量在使用之前并不需要像C语言那样事先定义变量类型，因此，变量一般是通过初始化来定义的，初始化时给变量赋一个值，PHP变量的类型由所赋值的类型决定。例如：
+123456&lt;?php	$a = 100;			//$a为整型变量	$b = 3.14;			//$b为浮点型变量	$c = &quot;school&quot;;		    //$c为字符串变量	$d = true;			//$d为布尔值变量?&gt;
+
+变量赋值的方式（1）值赋值：将一个变量的值赋给另一个变量，例如：$a &#x3D; $b。
+（2）引用赋值：将一个变量的地址赋给另一个变量，例如：$a &#x3D; &amp; $b，将$b的地址赋给$a，让$a、$b共同占用一个存储单元。
+1234567&lt;?php	$var = &quot;hello&quot;;	$bar =  ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2022/10/22/PHP%E5%9F%BA%E7%A1%80/" title="PHP基础1-数据类型"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://imglf3.lf127.net/img/842bc1217a4a6a82/S1N2ZTNIeU5LNUcyNjJJc21EV2xyNkZlQzVnUUV1b2hWN05waDlaRS9icz0.jpg?imageView&amp;thumbnail=1680x0&amp;quality=96&amp;stripmeta=0&amp;type=jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="PHP基础1-数据类型"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/10/22/PHP%E5%9F%BA%E7%A1%80/" title="PHP基础1-数据类型">PHP基础1-数据类型</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-10-22T15:48:26.000Z" title="发表于 2022-10-22 23:48:26">2022-10-22</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/PHP%E5%AD%A6%E4%B9%A0/">PHP学习</a></span></div><div class="content">PHP文件的组成PHP文件是一种文本文件，它既可以和HTML代码混合在一起，也可以单独编写纯PHP代码具体来说一个PHP文件由以下几个部分组成（1）HTML标记：一般作为页面中的布局，或者是页面中固定不变的部分（2）Javascript脚本：由&lt;script language&#x3D;”JavaScript”&gt;与扩住（3）PHP脚本：以“&lt;?php”开始“?&gt;”结束。除上述标记外，PHP脚本还允许使用其他样式的标记，这里就不一一叙述了。
+其中，HTML标记，javaScript脚本在客户端运行，PHP脚本在服务器端运行。如果一个网页含有PHP脚本，那么该网页为动态网页，扩展名必须为.php
+PHP脚本中的注释类似C语言，可以有两种注释风格。（1）单行注释：从&#x2F;&#x2F;开始直到行末，均属于注释部分。举个栗子：
+1234&lt;?php	echo &#x27;Hello&#x27;;	echo &#x27;世界上最好的语言PHP&#x27;; //不服来辩！?&gt;
+
+（2）多行注释：从&#x2F; * 开始到 * &#x2F;结束，不管有多少行， ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2022/10/20/Linux/" title="常用琐碎知识，复制粘贴方便"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://imglf4.lf127.net/img/11b02d52f171dbb6/S1N2ZTNIeU5LNUcyNjJJc21EV2xyd1ZLdFUwamt0b1I4aGRNVWtIdzVTST0.jpg?imageView&amp;thumbnail=1680x0&amp;quality=96&amp;stripmeta=0&amp;type=jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="常用琐碎知识，复制粘贴方便"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/10/20/Linux/" title="常用琐碎知识，复制粘贴方便">常用琐碎知识，复制粘贴方便</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-10-20T06:06:30.000Z" title="发表于 2022-10-20 14:06:30">2022-10-20</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Linux/">Linux</a></span></div><div class="content">查看安全日志查看成功登录的IP 和次数1[root@test ~]# cat /var/log/secure* |grep &#x27;Accepted password&#x27; |awk &#x27;&#123;print $(NF-3)&#125;&#x27; |sort -n |uniq -c |awk &#x27;&#123;print $2,&quot;成功登录了 &quot;$1,&quot; 次&quot;&#125;&#x27;&#x27;
+
+查看失败登录的IP和次数1[root@test ~]# cat /var/log/secure* |grep &#x27;Failed password&#x27; |awk &#x27;&#123;print $(NF-3)&#125;&#x27; |sort -n |uniq -c |awk &#x27;&#123;print $2,&quot;登录失败了: &quot;$1,&quot; 次&quot;&#125;&#x27;
+
+
+
+
+
+硬件资源top命令top参数详解12345678910111213141516171 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2022/05/12/pytest/" title="python pytest安装失败"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://imglf5.lf127.net/img/392c8be945ca13d2/S1N2ZTNIeU5LNUcyNjJJc21EV2xyemg3ZnBMZXBIWW1OaHlhTWcwQitHVT0.jpg?imageView&amp;thumbnail=1680x0&amp;quality=96&amp;stripmeta=0&amp;type=jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="python pytest安装失败"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/05/12/pytest/" title="python pytest安装失败">python pytest安装失败</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-05-12T03:23:03.000Z" title="发表于 2022-05-12 11:23:03">2022-05-12</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%87%AA%E5%8A%A8%E5%8C%96/">自动化</a></span></div><div class="content">python pytest安装失败1pip install pytest
+
+报错信息：
+ERROR: Could not find a version that satisfies the requirement pytestERROR: No matching distribution found for pytest
+
+解决办法：使用镜像安装
+1pip install pytest -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
+
+使用pip list查看一下，显示安装成功！
+
+</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2022/04/27/mianshi/" title="常见面试问题总结"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://imglf3.lf127.net/img/581b26988af319a5/S1N2ZTNIeU5LNUcyNjJJc21EV2xyNHJKU3E1c1JKVnBxRitHcWFEMHVTUT0.jpg?imageView&amp;thumbnail=1680x0&amp;quality=96&amp;stripmeta=0&amp;type=jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="常见面试问题总结"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/04/27/mianshi/" title="常见面试问题总结">常见面试问题总结</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-04-27T03:13:09.000Z" title="发表于 2022-04-27 11:13:09">2022-04-27</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%BF%90%E7%BB%B4/">运维</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/%E8%BF%90%E7%BB%B4/%E9%9D%A2%E8%AF%95/">面试</a></span></div><div class="content">怎么查看一个文件内容前十行 ，怎么查看后十行：可以使用head（查看前几行）、tail（查看末尾几行）两个命令。例：查看&#x2F;etc&#x2F;profile的前10行内容             # head -n 10 &#x2F;etc&#x2F;profile查看&#x2F;etc&#x2F;profile的最后5行内容            # tail  -n 5 &#x2F;etc&#x2F;profile
+如果想同时查看可以将前10行和后5行的显示信息通过输出重定向的方法保存到一个文档：将内容输出到&#x2F;home&#x2F;test文件中
+head -n 10 &#x2F;etc&#x2F;profile &gt;&gt;&#x2F;home&#x2F;test
+tail  -n 5 &#x2F;etc&#x2F;profile&gt;&gt;&#x2F;home&#x2F;test
+如何查看vi文件的前十行：  head vi 文件名   后十行 tail vi 文件名查找一个字符串    grep “aaa”vi 文件名
+查看文本文件内容时，如果内容过少 ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span><a class="page-number" href="/page/2/#content-inner">2</a><a class="extend next" rel="next" href="/page/2/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://thirdqq.qlogo.cn/g?b=oidb&amp;k=rHHXardPxXpBLIEP3gJ7Dg&amp;s=100&amp;t=1644059035" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Double本</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">20</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">13</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">11</div></a></div><div class="card-info-social-icons is-center"><a class="social-icon" href="https://qm.qq.com/cgi-bin/qm/qr?k=a6kOt9l4fAyEPuDyXqc3G6tuE5LQpY7K&amp;noverify=0" target="_blank" title="QQ"><i class="fab fa-qq"></i></a><a class="social-icon" href="mailto:benben5202014@qq.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="http://weixin.qq.com/r/Ehzu9g7Et1PIrUqV90kA" target="_blank" title="微信"><i class="fa fa-weixin"></i></a><a class="social-icon" href="https://weibo.com/volimtett" target="_blank" title="微博"><i class="fa fa-weibo"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">“关于这个博客 <font color=lime>学习交流群</font>Linux运维，python全套课程<font color=red>扫码加QQ群</font>” <img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://imglf6.lf127.net/img/37bc38f92d65090c/S1N2ZTNIeU5LNUZCbEN3Mmp1ZzhwMVZHS1EzRWR0OGJjLzBCNGt4MFlEaz0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0" width="330" height="250" ></div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2023/06/12/hello-world/" title="Hello World"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://imglf4.lf127.net/img/7dc102071afd9120/S1N2ZTNIeU5LNUcyNjJJc21EV2xyNFVSeHA0YVJockVpNkY4RGtQZ2hLTT0.jpg?imageView&amp;thumbnail=1680x0&amp;quality=96&amp;stripmeta=0&amp;type=jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hello World"/></a><div class="content"><a class="title" href="/2023/06/12/hello-world/" title="Hello World">Hello World</a><time datetime="2023-06-12T01:35:02.000Z" title="发表于 2023-06-12 09:35:02">2023-06-12</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/10/25/PHP%E5%9F%BA%E7%A1%804-2-%E7%BB%BC%E5%90%88%E5%AE%9E%E4%BE%8B/" title="PHP基础4.2-综合实例"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://imglf4.lf127.net/img/11b02d52f171dbb6/S1N2ZTNIeU5LNUcyNjJJc21EV2xyd1ZLdFUwamt0b1I4aGRNVWtIdzVTST0.jpg?imageView&amp;thumbnail=1680x0&amp;quality=96&amp;stripmeta=0&amp;type=jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="PHP基础4.2-综合实例"/></a><div class="content"><a class="title" href="/2022/10/25/PHP%E5%9F%BA%E7%A1%804-2-%E7%BB%BC%E5%90%88%E5%AE%9E%E4%BE%8B/" title="PHP基础4.2-综合实例">PHP基础4.2-综合实例</a><time datetime="2022-10-25T13:04:36.000Z" title="发表于 2022-10-25 21:04:36">2022-10-25</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/10/24/PHP%E5%9F%BA%E7%A1%804-1-PHP%E5%87%BD%E6%95%B0/" title="PHP基础4.1-PHP函数"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://imglf3.lf127.net/img/1b2c2368bd337c9e/S1N2ZTNIeU5LNUcyNjJJc21EV2xyekdPa1hQWGF6ZytZYnhXaWZCencxOD0.jpg?imageView&amp;thumbnail=1680x0&amp;quality=96&amp;stripmeta=0&amp;type=jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="PHP基础4.1-PHP函数"/></a><div class="content"><a class="title" href="/2022/10/24/PHP%E5%9F%BA%E7%A1%804-1-PHP%E5%87%BD%E6%95%B0/" title="PHP基础4.1-PHP函数">PHP基础4.1-PHP函数</a><time datetime="2022-10-24T15:29:10.000Z" title="发表于 2022-10-24 23:29:10">2022-10-24</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/10/24/PHP%E5%9F%BA%E7%A1%804/" title="PHP基础4-程序流程控制"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://imglf4.lf127.net/img/d512e82b79ceea8c/S1N2ZTNIeU5LNUcyNjJJc21EV2xyNStteXJJeWRhZzhWNU4vbGtmY2Q4bz0.jpg?imageView&amp;thumbnail=1680x0&amp;quality=96&amp;stripmeta=0&amp;type=jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="PHP基础4-程序流程控制"/></a><div class="content"><a class="title" href="/2022/10/24/PHP%E5%9F%BA%E7%A1%804/" title="PHP基础4-程序流程控制">PHP基础4-程序流程控制</a><time datetime="2022-10-24T13:22:35.000Z" title="发表于 2022-10-24 21:22:35">2022-10-24</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/10/24/PHP%E5%9F%BA%E7%A1%803/" title="PHP基础3-运算符与表达式"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://imglf5.lf127.net/img/392c8be945ca13d2/S1N2ZTNIeU5LNUcyNjJJc21EV2xyemg3ZnBMZXBIWW1OaHlhTWcwQitHVT0.jpg?imageView&amp;thumbnail=1680x0&amp;quality=96&amp;stripmeta=0&amp;type=jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="PHP基础3-运算符与表达式"/></a><div class="content"><a class="title" href="/2022/10/24/PHP%E5%9F%BA%E7%A1%803/" title="PHP基础3-运算符与表达式">PHP基础3-运算符与表达式</a><time datetime="2022-10-24T07:05:01.000Z" title="发表于 2022-10-24 15:05:01">2022-10-24</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            <a class="card-more-btn" href="/categories/" title="查看更多">
+    <i class="fas fa-angle-right"></i></a>
+            </div>
+            <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Linux/"><span class="card-category-list-name">Linux</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Nginx/"><span class="card-category-list-name">Nginx</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/PHP%E5%AD%A6%E4%B9%A0/"><span class="card-category-list-name">PHP学习</span><span class="card-category-list-count">6</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Selenium/"><span class="card-category-list-name">Selenium</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/mysql/"><span class="card-category-list-name">mysql</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%8A%80%E6%9C%AF/"><span class="card-category-list-name">技术</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/"><span class="card-category-list-name">接口测试</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E8%87%AA%E5%8A%A8%E5%8C%96/"><span class="card-category-list-name">自动化</span><span class="card-category-list-count">1</span></a></li>
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/%E6%8A%80%E6%9C%AF/" style="font-size: 1.45em; color: rgb(16, 80, 174)">技术</a><a href="/tags/PHP/" style="font-size: 1.3em; color: rgb(107, 150, 185)">PHP</a><a href="/tags/PHP-%E5%AE%9E%E4%BE%8B/" style="font-size: 1.15em; color: rgb(52, 178, 91)">PHP,实例</a><a href="/tags/Selenium/" style="font-size: 1.15em; color: rgb(71, 28, 167)">Selenium</a><a href="/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/" style="font-size: 1.15em; color: rgb(10, 100, 2)">自动化</a><a href="/tags/Python%E7%88%AC%E8%99%AB/" style="font-size: 1.15em; color: rgb(62, 187, 177)">Python爬虫</a><a href="/tags/%E5%88%86%E4%BA%AB/" style="font-size: 1.15em; color: rgb(105, 107, 63)">分享</a><a href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/" style="font-size: 1.15em; color: rgb(20, 83, 27)">数据库</a><a href="/tags/MySQL/" style="font-size: 1.15em; color: rgb(16, 46, 131)">MySQL</a><a href="/tags/Nginx/" style="font-size: 1.15em; color: rgb(101, 79, 51)">Nginx</a><a href="/tags/%E6%B5%8B%E8%AF%95/" style="font-size: 1.15em; color: rgb(178, 195, 192)">测试</a><a href="/tags/unittest%E6%A1%86%E6%9E%B6/" style="font-size: 1.15em; color: rgb(187, 131, 183)">unittest框架</a><a href="/tags/Linux/" style="font-size: 1.15em; color: rgb(180, 59, 158)">Linux</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/06/"><span class="card-archive-list-date">六月 2023</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/10/"><span class="card-archive-list-date">十月 2022</span><span class="card-archive-list-count">7</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/05/"><span class="card-archive-list-date">五月 2022</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/04/"><span class="card-archive-list-date">四月 2022</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/03/"><span class="card-archive-list-date">三月 2022</span><span class="card-archive-list-count">5</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/02/"><span class="card-archive-list-date">二月 2022</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/01/"><span class="card-archive-list-date">一月 2022</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/12/"><span class="card-archive-list-date">十二月 2021</span><span class="card-archive-list-count">1</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">20</div></div><div class="webinfo-item"><div class="item-name">已运行时间 :</div><div class="item-count" id="runtimeshow" data-publishDate="2021-12-01T16:00:00.000Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2023-06-14T12:41:26.728Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023 By Double本</div><div class="footer_custom_text">写代码是热爱，写到世界充满爱！<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://ae01.alicdn.com/kf/Uf74dbecbde774d9986375d51521860fcL.png" alt="感谢一路有你标语" /></br><script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1281098351'%3E%3C/span%3E%3Cscript src='https://v1.cnzz.com/z_stat.php%3Fid%3D1281098351%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));</script></p></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><div class="js-pjax"><script>window.typedJSFn = {
+  init: (str) => {
+    window.typed = new Typed('#subtitle', Object.assign({
+      strings: str,
+      startDelay: 300,
+      typeSpeed: 150,
+      loop: true,
+      backSpeed: 50,
+    }, null))
+  },
+  run: (subtitleType) => {
+    if (true) {
+      if (typeof Typed === 'function') {
+        subtitleType()
+      } else {
+        getScript('https://cdn.jsdelivr.net/npm/typed.js/dist/typed.umd.min.js').then(subtitleType)
+      }
+    } else {
+      subtitleType()
+    }
+  }
+}
+</script><script>function subtitleType () {
+  getScript('https://yijuzhan.com/api/word.php?m=js').then(() => {
+    const con = str[0]
+    if (true) {
+      const from = '出自 ' + str[1]
+      const sub = []
+      sub.unshift(con, from)
+      typedJSFn.init(sub)
+    } else {
+      document.getElementById('subtitle').textContent = con
+    }
+  })
+}
+typedJSFn.run(subtitleType)
+</script></div><script src="/live2d-widget/autoload.js"></script><script async src="/js/diytitle.js"></script><script async src="/js/grayscale.js"></script><div class="aplayer no-destroy" data-id="5183531430" data-server="netease" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-preload="none" data-autoplay="false" muted></div><script defer src="https://cdn.jsdelivr.net/combine/npm/jquery@latest/dist/jquery.min.js,gh/weilining/jsdelivr/jquery/circlemagic/circlemagic.min.js,gh/weilining/jsdelivr@latest/jquery/circlemagic/butterflycirclemagic.js"></script><canvas class="fireworks" mobile="false"></canvas><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/fireworks.min.js"></script><script defer="defer" id="fluttering_ribbon" mobile="true" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-fluttering-ribbon.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = false;
+POWERMODE.mobile = false;
+document.body.addEventListener('input', POWERMODE);
+</script><script id="click-show-text" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/click-show-text.min.js" data-mobile="false" data-text="富强,民主,文明,和谐,自由,平等,公正,法治,爱国,敬业,诚信,友善" data-fontsize="15px" data-random="false" async="async"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/metingjs/dist/Meting.min.js"></script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+
+  // removeEventListener scroll 
+  window.tocScrollFn && window.removeEventListener('scroll', window.tocScrollFn)
+  window.scrollCollect && window.removeEventListener('scroll', scrollCollect)
+
+  document.getElementById('rightside').style.cssText = "opacity: ''; transform: ''"
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+  typeof disqusjs === 'object' && disqusjs.destroy()
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', (e) => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div class="no-result" id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div><!-- hexo injector body_end start --><div class="js-pjax"><script async="async">var arr = document.getElementsByClassName('recent-post-item');
+for(var i = 0;i<arr.length;i++){
+    arr[i].classList.add('wow');
+    arr[i].classList.add('animate__zoomIn');
+    arr[i].setAttribute('data-wow-duration', '2s');
+    arr[i].setAttribute('data-wow-delay', '1s');
+    arr[i].setAttribute('data-wow-offset', '100');
+    arr[i].setAttribute('data-wow-iteration', '1');
+  }</script><script async="async">var arr = document.getElementsByClassName('card-widget');
+for(var i = 0;i<arr.length;i++){
+    arr[i].classList.add('wow');
+    arr[i].classList.add('animate__zoomIn');
+    arr[i].setAttribute('data-wow-duration', '');
+    arr[i].setAttribute('data-wow-delay', '');
+    arr[i].setAttribute('data-wow-offset', '');
+    arr[i].setAttribute('data-wow-iteration', '');
+  }</script></div><script defer src="https://unpkg.zhimg.com/hexo-butterfly-wowjs/lib/wow.min.js"></script><script defer src="https://unpkg.zhimg.com/hexo-butterfly-wowjs/lib/wow_init.js"></script><!-- hexo injector body_end end --></body></html>
